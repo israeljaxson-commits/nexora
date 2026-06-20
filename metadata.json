@@ -1,0 +1,6 @@
+{
+  "name": "NEXORA",
+  "description": "Premium virtual numbers for instant SMS verification, security, airtime, and utility services worldwide on the NEXORA platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
