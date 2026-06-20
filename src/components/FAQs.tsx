@@ -24,10 +24,10 @@ export default function FAQs() {
             Have questions?
           </span>
           <h2 className="font-display font-black text-3xl sm:text-4xl text-white tracking-tight mb-4 uppercase">
-            Frequently Asked Disclosures
+            Frequently Asked Questions
           </h2>
           <p className="font-sans text-sm sm:text-base text-slate-400 leading-relaxed">
-            Acquire critical guidance on temporary active phone numbers, security refund procedures, invite balances, and multi-server compliance levels.
+            Get help with temporary numbers, refund rules, referral rewards, and account security.
           </p>
         </div>
 

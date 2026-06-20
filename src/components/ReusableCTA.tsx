@@ -9,9 +9,9 @@ interface ReusableCTAProps {
 }
 
 export default function ReusableCTA({ 
-  title = "Unlock completely borderless digital verifications today", 
-  badge = "Immediate Activations Gateway",
-  description = "Join developers, marketers, and privacy enthusiasts securing their workflows. Generate permanent or temporary gateways in seconds without exposing physical identities."
+  title = "Start secure digital verification today", 
+  badge = "Fast Activation",
+  description = "Join developers, marketers, and privacy-focused users who need quick and reliable verification tools."
 }: ReusableCTAProps) {
   return (
     <section className="py-16 md:py-24 bg-transparent text-white relative overflow-hidden">

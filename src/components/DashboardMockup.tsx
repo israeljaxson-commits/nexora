@@ -207,7 +207,7 @@ export default function DashboardMockup({ initialTab = 'sms', onShowNotification
     setTransactions(prev => [newTx, ...prev]);
 
     onShowNotification({
-      title: 'SMS Bypass Code Delivered!',
+      title: 'SMS Verification Code Delivered!',
       message: `Secured target code: ${code}. Copied to clipboard.`,
       type: 'success'
     });
@@ -428,7 +428,7 @@ export default function DashboardMockup({ initialTab = 'sms', onShowNotification
                 >
                   <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-4 border-b border-white/5 pb-4">
                     <div>
-                      <h3 className="text-lg font-bold font-display text-white">Temporary Bypass Numbers</h3>
+                      <h3 className="text-lg font-bold font-display text-white">Temporary Verification Numbers</h3>
                       <p className="text-xs text-slate-400">Generate high-reliability secure virtual channels for verification SMS.</p>
                     </div>
                     <div className="bg-[#060A13] p-1.5 px-3 rounded-lg border border-white/5 text-[10px] uppercase font-mono tracking-widest text-sky-400 font-semibold self-start sm:self-auto">
@@ -534,13 +534,13 @@ export default function DashboardMockup({ initialTab = 'sms', onShowNotification
                                   </p>
                                   <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-xl p-3 flex items-center justify-between">
                                     <div>
-                                      <span className="text-[8px] uppercase tracking-wider text-emerald-400 block font-bold">Extracted Bypass Pin</span>
+                                      <span className="text-[8px] uppercase tracking-wider text-emerald-400 block font-bold">Extracted Verification PIN</span>
                                       <b className="text-sm font-mono text-white tracking-widest">{msg.code}</b>
                                     </div>
                                     <button 
                                       onClick={() => {
                                         navigator.clipboard.writeText(msg.code);
-                                        onShowNotification({ title: 'Code Copied', message: 'Bypass code saved.', type: 'success' });
+                                        onShowNotification({ title: 'Code Copied', message: 'Verification code saved.', type: 'success' });
                                       }}
                                       className="text-[10px] font-bold text-emerald-400 hover:underline cursor-pointer"
                                     >
@@ -778,7 +778,7 @@ export default function DashboardMockup({ initialTab = 'sms', onShowNotification
 
                       <div className="bg-slate-900 border border-slate-800/60 rounded-xl p-3 text-[11px] leading-relaxed text-slate-500">
                         <span className="font-semibold text-slate-400 block mb-1">Instant delivery guarantee:</span>
-                        Airrecharge modules process securely within 5 seconds on active mobile numbers globally. Transactions update in the ledger below automatically.
+                        Airtime recharge modules process securely within 5 seconds on active mobile numbers globally. Transactions update in the ledger below automatically.
                       </div>
                     </div>
 

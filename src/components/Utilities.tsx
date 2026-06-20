@@ -31,7 +31,7 @@ export default function Utilities({ onOpenUtility }: UtilitiesProps) {
     {
       icon: <Phone className="w-6 h-6 text-emerald-500" />,
       title: 'Direct Cellular Airtime',
-      desc: 'Transfer instant cellular airrecharge balances to prepaid cards on over 400 global operators.',
+      desc: 'Transfer instant airtime balances to prepaid numbers on over 400 global operators.',
       color: 'bg-emerald-50',
       tab: 'airtime',
     },
@@ -45,7 +45,7 @@ export default function Utilities({ onOpenUtility }: UtilitiesProps) {
     {
       icon: <Plus className="w-6 h-6 text-indigo-500" />,
       title: 'More Digital Services',
-      desc: 'Bypass verification gateways and process unified payments across multiple server channels.',
+      desc: 'Access more verification and payment tools through one unified platform.',
       color: 'bg-indigo-50',
       tab: 'bills',
     },

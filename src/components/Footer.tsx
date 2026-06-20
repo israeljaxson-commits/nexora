@@ -15,23 +15,23 @@ export default function Footer() {
 
   const menuLinks = {
     services: [
-      { name: 'SMS Bypass Codes', path: '/pricing' },
+      { name: 'SMS Verification Codes', path: '/pricing' },
       { name: 'Virtual Phone Lines', path: '/features' },
       { name: 'Airtime Recharge', path: '/features' },
       { name: 'Data Subscriptions', path: '/features' },
       { name: 'Prepaid Utility Bills', path: '/get-started' },
     ],
     support: [
-      { name: 'Ecosystem FAQs', path: '/faqs' },
+      { name: 'FAQs', path: '/faqs' },
       { name: 'Terminal Guide', path: '/get-started' },
       { name: 'Referral Rewards', path: '/referrals' },
-      { name: 'Privacy shield parameters', path: '/about' },
+      { name: 'Privacy Standards', path: '/about' },
     ],
     company: [
-      { name: 'Ecosystem Features', path: '/features' },
+      { name: 'Platform Features', path: '/features' },
       { name: 'Secure Gateways', path: '/about' },
-      { name: 'Download mobile client', path: '/download' },
-      { name: 'Ecosystem reviews', path: '/' },
+      { name: 'Download Mobile App', path: '/download' },
+      { name: 'Customer Reviews', path: '/' },
     ],
   };
 
@@ -54,7 +54,7 @@ export default function Footer() {
             </Link>
             
             <p className="text-xs text-slate-405 leading-relaxed max-w-sm">
-              Providing premium temporary virtual phone bypass lines, cellular airtime recharge channels, and secure pre-paid utility payments globally on NEXORA. Absolute data minimization.
+              NEXORA provides temporary verification numbers, airtime recharge channels, and secure utility payments for users worldwide.
             </p>
 
             {/* Social media listings */}
@@ -133,7 +133,7 @@ export default function Footer() {
 
         </div>
 
-        {/* Lower footer section copyright disclosures */}
+        {/* Lower footer section */}
         <div className="flex flex-col sm:flex-row items-center justify-between pt-8 text-xs text-slate-500 space-y-4 sm:space-y-0" id="footer-copyright-panel">
           <span className="font-mono">
             © {new Date().getFullYear()} NEXORA Inc. All physical and logical SIM gateways protected.
@@ -142,7 +142,7 @@ export default function Footer() {
           <div className="flex flex-wrap gap-x-6 gap-y-2 justify-center">
             <a href="#terms" className="hover:text-white transition-colors">Terms of Gateway Usage</a>
             <a href="#privacy" className="hover:text-white transition-colors">Privacy Shield Policy</a>
-            <a href="#disclaimers" className="hover:text-white transition-colors">Filing Disclosures</a>
+            <a href="#disclaimers" className="hover:text-white transition-colors">Legal Notices</a>
             <a href="#abuse" className="hover:text-white text-rose-455 transition-colors font-semibold">Report Line Abuse</a>
           </div>
         </div>

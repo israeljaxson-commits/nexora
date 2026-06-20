@@ -6,12 +6,12 @@ export default function PrivacySecurity() {
     {
       icon: <Lock className="w-5 h-5 text-sky-400" />,
       title: 'End-to-End Encryption',
-      description: 'Your verification requests and bypass codes are encrypted in transit using bank-grade AES-256 protocols. Communication logs expire permanently after codes deliver.',
+      description: 'Your verification requests and codes are encrypted in transit with AES-256 standards. Temporary logs expire after delivery.',
     },
     {
       icon: <CheckCircle2 className="w-5 h-5 text-emerald-400" />,
       title: 'Secure Transit Gateway',
-      description: 'Multi-layer API handshakes prevent packet Sniffing or intermediate payload interception. Payment modules operate behind rigid fire walls and secure proxies.',
+      description: 'Multi-layer API handshakes reduce packet sniffing and payload interception. Payment modules run behind secure firewalls and proxies.',
     },
     {
       icon: <EyeOff className="w-5 h-5 text-orange-400" />,
@@ -21,12 +21,12 @@ export default function PrivacySecurity() {
     {
       icon: <ShieldAlert className="w-5 h-5 text-red-400" />,
       title: 'Active Fraud Protection',
-      description: 'Our dynamic multi-server clusters filter out malicious spam registers, duplicate lines, or compromised numbers, protecting verification integrity.',
+      description: 'Our systems filter spam activity, duplicate requests, and compromised numbers to protect verification integrity.',
     },
     {
       icon: <UserCheck className="w-5 h-5 text-sky-400" />,
       title: 'Absolute Data Minimization',
-      description: 'We store zero cookie caches or navigation histories. Your security profile remains entirely clean. Zero logs are sold to third parties, ever.',
+      description: 'We keep data collection minimal and do not sell user logs or browsing history to third parties.',
     },
   ];
 
@@ -75,7 +75,7 @@ export default function PrivacySecurity() {
                   <div className="w-0.5 h-6 bg-dashed border-l border-white/10" />
                 </div>
 
-                {/* Bypass Node */}
+                {/* Verification Node */}
                 <div className="bg-[#060A13] border border-white/5 rounded-xl p-4 flex items-center justify-between text-xs">
                   <div>
                     <span className="text-slate-400 block text-[9px] uppercase tracking-wider font-extrabold">Intermediate payload decryption lock</span>
@@ -113,11 +113,11 @@ export default function PrivacySecurity() {
             </span>
             
             <h2 className="font-display font-black text-3xl sm:text-4xl text-white tracking-tight leading-none uppercase">
-              Rigid Data Privacy & Transacted Trust
+              Privacy-First Data Protection
             </h2>
             
             <p className="font-sans text-sm sm:text-base text-slate-400 leading-relaxed">
-              We operate outside standard intrusive logging networks. There is no telemetry parsing, identity registration, or cookie matching. Your SMS verification flows proceed in absolute anonymity.
+              We are designed to reduce invasive tracking. No unnecessary identity profiling, no ad-tech matching, and secure verification flows from start to finish.
             </p>
 
             <div className="space-y-4 pt-4">

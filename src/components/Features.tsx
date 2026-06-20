@@ -30,7 +30,7 @@ export default function Features({ onFeatureClick }: FeaturesProps) {
       id: 'sms',
       icon: <MessageSquareCode className="w-6 h-6 text-sky-400" />,
       title: 'SMS Verification',
-      description: 'Receive temporary verification bypass codes instantly for standard registration gateways.',
+      description: 'Receive temporary verification codes instantly for account sign-in and registration.',
       tab: 'sms',
     },
     {
@@ -105,13 +105,13 @@ export default function Features({ onFeatureClick }: FeaturesProps) {
         {/* Section title */}
         <div className="text-center max-w-3xl mx-auto mb-16" id="features-header">
           <span className="text-xs font-bold uppercase tracking-wider text-sky-400 bg-sky-500/10 px-3.5 py-1.5 rounded-full inline-block mb-4">
-            Core Ecosystem
+            Core Services
           </span>
           <h2 className="font-display font-black text-3xl sm:text-4xl text-white tracking-tight mb-4 uppercase">
-            Unified Utilities Ecosystem
+            Unified Utility Services
           </h2>
           <p className="font-sans text-sm sm:text-base text-slate-400">
-            More than just virtual numbers. NEXORA unites cellular airtime, internet data links, local utility bills, and SMS bypass tools into one beautiful secure environment.
+            More than virtual numbers. NEXORA combines airtime, data, utility payments, and SMS verification in one secure platform.
           </p>
         </div>
 

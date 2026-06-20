@@ -8,7 +8,7 @@ export default function FeaturesPage() {
     <Layout>
       <Features />
       <ReusableCTA 
-        title="Experience our extreme routing speed live" 
+        title="Experience our fast routing speed live" 
         badge="Zero Friction Portal"
         description="Verify lines instantly, test cellular top-ups, and automate billing schedules in our simulated environment."
       />

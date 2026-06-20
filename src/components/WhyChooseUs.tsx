@@ -6,7 +6,7 @@ export default function WhyChooseUs() {
     {
       icon: <Zap className="w-6 h-6 text-sky-400" />,
       title: 'Fast Delivery',
-      desc: 'No queues. No tedious hardware swaps. Direct secure API links process SMS code verifications and utility balances in under 15 seconds.',
+      desc: 'No queues and no hardware swaps. SMS verification and utility transactions are processed in seconds.',
     },
     {
       icon: <Tag className="w-6 h-6 text-emerald-400" />,
@@ -16,12 +16,12 @@ export default function WhyChooseUs() {
     {
       icon: <ShieldCheck className="w-6 h-6 text-orange-400" />,
       title: 'Secure Anti-Fraud Platform',
-      desc: 'Rigid AES-256 data transit parameters and active spam shields safeguard against proxy duplicates or leaked number allocations.',
+      desc: 'AES-256 encryption and active fraud filters help block duplicate requests, abuse, and leaked allocations.',
     },
     {
       icon: <Headphones className="w-6 h-6 text-red-400" />,
       title: 'Reliable 24/7 Support',
-      desc: 'Around-the-clock connection to direct technical integration specialists. Secure query pipelines guarantee your peace of mind.',
+      desc: 'Get direct access to technical support specialists any time you need help.',
     },
   ];
 
@@ -39,10 +39,10 @@ export default function WhyChooseUs() {
             Security Guarantee
           </span>
           <h2 className="font-display font-black text-3xl sm:text-4xl text-white tracking-tight mb-4 uppercase">
-            Forged For Rigorous Performance
+            Built For Reliable Performance
           </h2>
           <p className="font-sans text-sm sm:text-base text-slate-400 leading-relaxed">
-            Understand why developers, marketing corporations, and privacy advocates choose NEXORA over traditional unencrypted SIM routing operators.
+            See why developers, teams, and privacy-focused users choose NEXORA for fast and secure verification services.
           </p>
         </div>
 

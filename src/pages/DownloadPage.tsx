@@ -10,7 +10,7 @@ export default function DownloadPage() {
       <ReusableCTA 
         title="Access NEXORA gateways on any platform" 
         badge="Cross-Platform Utility"
-        description="Our unified mobile clients support light-weight bypass tools, instant cellular balances, and priority token activations on both iOS and Android natively."
+        description="Our mobile apps support lightweight verification tools, instant wallet actions, and fast activation on iOS and Android."
       />
     </Layout>
   );

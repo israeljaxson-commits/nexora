@@ -76,7 +76,7 @@ export default function PricingCalculator({ onSelectPlatform }: PricingCalculato
             Transparent Pricing
           </span>
           <h2 className="font-display font-black text-3xl sm:text-4xl text-white tracking-tight mb-4 uppercase">
-            Activate Instant SMS Bypass Codes
+            Get Instant SMS Verification Codes
           </h2>
           <p className="font-sans text-sm sm:text-base text-slate-400">
             Choose your communication channel, select the target country gateway, and pay only for successful SMS delivery. No monthly commitments on temporary tokens.
@@ -240,7 +240,7 @@ export default function PricingCalculator({ onSelectPlatform }: PricingCalculato
         <div className="mt-12 bg-sky-500/5 rounded-2xl p-5 border border-sky-500/10 flex items-start gap-3 text-slate-350 max-w-2xl mx-auto">
           <ShieldCheck className="w-5 h-5 text-sky-400 shrink-0 mt-0.5" />
           <p className="font-sans text-xs leading-relaxed">
-            <span className="font-bold text-white">NEXORA Policy guarantee:</span> If your verification code is not generated or received within 10 minutes, we revert the full token credit to your secure digital wallet. Absolutely free of hassle.
+            <span className="font-bold text-white">NEXORA Guarantee:</span> If your verification code is not received within 10 minutes, we refund the full credit to your wallet.
           </p>
         </div>
 

@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import PrivacySecurity from '../components/PrivacySecurity';
 import WhyChooseUs from '../components/WhyChooseUs';
 import ReusableCTA from '../components/ReusableCTA';
-import { Shield, Sparkles, Cpu, Lock } from 'lucide-react';
+import { Shield, Cpu, Lock } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -20,7 +20,7 @@ export default function AboutPage() {
             Decentralized Privacy & <span className="bg-gradient-to-r from-sky-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">Digital Gateways</span>
           </h1>
           <p className="font-sans text-sm sm:text-base text-slate-400 max-w-2xl mx-auto leading-relaxed mb-12">
-            NEXORA was born from a simple belief: your personal identity should never be the cost of standard digital entry. We secure dual-routing physical and logical SIM gateways globally, giving you absolute control over verifications.
+            NEXORA was built on a simple idea: your personal information should not be the price of digital access. We provide secure virtual verification channels worldwide, so you stay in control.
           </p>
 
           {/* Quick core pillars bento grid */}
@@ -54,7 +54,7 @@ export default function AboutPage() {
               </div>
               <h3 className="font-display font-bold text-sm text-white mb-2 uppercase">Data Minimization</h3>
               <p className="font-sans text-[11px] text-slate-400 leading-relaxed">
-                By stripping unnecessary parameters, we protect users from active system data breach vulnerabilities and advertising scrapers.
+                We collect only what is required for service delivery, reducing exposure to tracking, data leaks, and abuse.
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function AboutPage() {
       <ReusableCTA 
         title="We build systems with privacy at the core" 
         badge="Technology Integrity Standards"
-        description="Verify lines with complete confidence. No registration limits, absolute zero data storage, premium multi-server encryption layers."
+        description="Verify with confidence. No unnecessary sign-up friction, minimal data retention, and strong multi-layer encryption."
       />
     </Layout>
   );

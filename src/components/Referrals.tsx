@@ -72,11 +72,11 @@ export default function Referrals({ onOpenReferrals }: ReferralsProps) {
             </span>
 
             <h2 className="font-display font-black text-3xl sm:text-4xl text-white tracking-tight leading-none uppercase">
-              Infinite Residual Earnings. Zero Limits.
+              Earn Ongoing Referral Rewards
             </h2>
 
             <p className="font-sans text-sm sm:text-base text-slate-400 leading-relaxed">
-              Transform your network into active fintech rewards. With NEXORA’s multi-server verification engine, you acquire a direct 5% cash refund on every customer wallet deposit made through your partner URLs.
+              Invite your network and earn a direct 5% reward on each wallet deposit made through your referral link.
             </p>
 
             {/* Stepper block */}

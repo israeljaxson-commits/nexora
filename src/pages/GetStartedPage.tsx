@@ -17,7 +17,7 @@ export default function GetStartedPage() {
           Secure Sandbox Workbench
         </h1>
         <p className="font-sans text-xs sm:text-sm text-slate-400">
-          Simulate bypass routes, manage your virtual multi-currency wallet, top-up carriers, and configure referral programs in real time.
+          Test verification flows, manage your virtual wallet, top up carriers, and track referral activity in real time.
         </p>
       </div>
 

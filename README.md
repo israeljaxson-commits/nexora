@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# NEXORA
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/9851927d-0a5e-4fae-95bc-3452e3b4e7d7
+NEXORA is a React + Vite web application for SMS verification workflows, utility payments, and referral rewards.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+Prerequisites: Node.js 20+
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Start the development server:
    `npm run dev`
+3. Open:
+   `http://localhost:3000`
+
+## Build
+
+1. Create a production build:
+   `npm run build`
+2. Preview the production build:
+   `npm run preview`

@@ -152,7 +152,7 @@ export default function Hero() {
                       <div className="flex items-center gap-1.5">
                         <span className="text-sm">💬</span>
                         <div>
-                          <span className="text-[11px] font-bold text-sky-400 block">WhatsApp Bypass</span>
+                          <span className="text-[11px] font-bold text-sky-400 block">WhatsApp Verification</span>
                           <span className="text-[9px] text-slate-500 font-medium">Active • Expires in 08:44</span>
                         </div>
                       </div>

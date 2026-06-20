@@ -33,7 +33,7 @@ export const FAQ_ITEMS = [
   },
   {
     question: 'Am I charged if I do not receive an SMS?',
-    answer: 'Absolutely not! We adhere to a strict "No SMS, No Charge" policy. If the verification code is not received within the activation time window, your funds are fully restored to your wallet automatically.',
+    answer: 'No. We follow a strict no-delivery, no-charge policy. If a verification code is not received during the activation window, your wallet is refunded automatically.',
   },
   {
     question: 'Can I use these numbers to pay digital utility bills?',
@@ -75,7 +75,7 @@ export const TESTIMONIALS = [
     name: 'Niklas Weber',
     role: 'Freelance Architect',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face',
-    content: 'Top-tier UI UX. Most virtual number platforms feel like dodgy web scripts. NEXORA is clean, professional, enterprise-grade, and beautifully fast.',
+    content: 'Great UI and UX. Many virtual number platforms feel unreliable, but NEXORA is polished, professional, and fast.',
     rating: 5,
   },
 ];

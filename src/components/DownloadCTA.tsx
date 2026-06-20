@@ -19,11 +19,11 @@ export default function DownloadCTA() {
               </span>
 
               <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-white tracking-tight leading-none uppercase">
-                Bypass Gateways directly from your Pocket
+                Verification Services Directly From Your Phone
               </h2>
 
               <p className="font-sans text-sm sm:text-base text-slate-400 leading-relaxed max-w-xl mx-auto lg:mx-0">
-                Download the standalone NEXORA application. Secure dual-routing temporary phone lines, top up cellular airtime, and fund utility balances securely on the road.
+                Download the NEXORA app to access temporary verification numbers, airtime top-ups, and utility payments wherever you are.
               </p>
 
               {/* Download Buttons badges */}

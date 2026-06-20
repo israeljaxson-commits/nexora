@@ -8,7 +8,7 @@ export default function FAQsPage() {
     <Layout>
       <FAQs />
       <ReusableCTA 
-        title="Can't find what you are looking for?" 
+        title="Can't find what you're looking for?" 
         badge="Direct Support Channels"
         description="Connect directly with our 24/7 technical security ops. Standard response window is under 15 minutes, with dedicated priority engineers standing by."
       />
